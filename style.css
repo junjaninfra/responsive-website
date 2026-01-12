@@ -1,3 +1,13 @@
+/* Colors */
+:root {
+    --c-white: hsl(0, 0%, 100%);
+    --c-gray-dark: hsl(233, 14%, 25%);
+
+    --color-main-bg: var(--c-white);
+    --color-text-dark: var(--c-gray-dark);
+    --color-text-white: var(--c-white)
+}
+
 *,
 *::before,
 *::after {
