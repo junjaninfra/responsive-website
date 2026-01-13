@@ -25,7 +25,7 @@
   --fs-48: calc(48 / 16 * 1);
   --fs-72: calc(72 / 16 * 1);
 
-  --font-size-topnav: var(var(--fs-14)); /* mobile */
+  --font-size-topnav: var(--fs-14); /* mobile */
   --font-size-h1: var(--fs-42);
   --font-size-h2: var(--fs-36);
   --font-size-h3: var(--fs-24);
