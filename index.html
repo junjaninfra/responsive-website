@@ -13,22 +13,54 @@
     <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
-    <div class="wrapper">
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-        adipisci at quae nostrum deserunt temporibus magni reiciendis corrupti.
-        Perspiciatis esse omnis consequuntur accusantium ducimus iure cumque,
-        alias, nam tenetur quia libero vel, corporis praesentium assumenda dicta
-        impedit atque officiis rerum. Maxime blanditiis culpa accusamus? Quam
-        provident natus dolorem, eaque eius fugit hic tempora. Adipisci ipsam
-        perferendis praesentium distinctio voluptate. Debitis molestiae corrupti
-        neque officiis natus, dicta beatae quibusdam labore dignissimos
-        consequatur et tempora dolores incidunt vero? Nemo quas reprehenderit
-        reiciendis natus molestias repellat dolorum quo obcaecati error corrupti
-        voluptatum aliquam impedit, ad ut exercitationem tempore quasi aliquid
-        placeat, laborum deleniti?
-      </p>
-    </div>
+    <a class="visually-hidden skip" href="#main">Skip to main content</a>
+    <!-- skip link go to the (id = "main") -->
+    <header class="topnav">
+      <h2 class="visually-hidden">Header</h2>
+
+      <div class="wrapper topnav__wrapper">
+        <a href="/" class="topnav__homelink">
+          <img src="/img/logo-mythos.svg" alt="Mythos homepage" class="topnav__logo">
+        </a>
+
+        <nav>
+          <ul class="topnav__links">
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Features</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Pricing</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="wrapper">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          adipisci at quae nostrum deserunt temporibus magni reiciendis
+          corrupti. Perspiciatis esse omnis consequuntur accusantium ducimus
+          iure cumque, alias, nam tenetur quia libero vel, corporis praesentium
+          assumenda dicta impedit atque officiis rerum. Maxime blanditiis culpa
+          accusamus? Quam provident natus dolorem, eaque eius fugit hic tempora.
+          Adipisci ipsam perferendis praesentium distinctio voluptate. Debitis
+          molestiae corrupti neque officiis natus, dicta beatae quibusdam labore
+          dignissimos consequatur et tempora dolores incidunt vero? Nemo quas
+          reprehenderit reiciendis natus molestias repellat dolorum quo
+          obcaecati error corrupti voluptatum aliquam impedit, ad ut
+          exercitationem tempore quasi aliquid placeat, laborum deleniti?
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <h2 class="visually-hidden">Footer</h2>
+    </footer>
   </body>
 </html>
